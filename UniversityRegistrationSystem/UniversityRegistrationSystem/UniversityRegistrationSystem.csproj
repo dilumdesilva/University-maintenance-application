@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="studentCheckMarksForm.cs">
+    <Compile Include="studentMarksForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="studentCheckMarksForm.Designer.cs">
-      <DependentUpon>studentCheckMarksForm.cs</DependentUpon>
+    <Compile Include="studentMarksForm.Designer.cs">
+      <DependentUpon>studentMarksForm.cs</DependentUpon>
     </Compile>
     <Compile Include="lecturerAddMarksForm.cs">
       <SubType>Form</SubType>
@@ -116,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="studentMainForm.resx">
       <DependentUpon>studentMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentMarksForm.resx">
+      <DependentUpon>studentMarksForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
