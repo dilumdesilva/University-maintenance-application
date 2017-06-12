@@ -1,6 +1,6 @@
 ﻿namespace UniversityRegistrationSystem
 {
-    partial class MainRegistrationForm
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // MainRegistrationForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(386, 275);
+            this.Name = "MainRegistrationForm";
+            this.Text = "University of Westminster";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

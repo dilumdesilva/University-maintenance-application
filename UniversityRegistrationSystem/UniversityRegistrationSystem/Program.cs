@@ -16,7 +16,7 @@ namespace UniversityRegistrationSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainRegistrationForm());
+            Application.Run(new MainForm());
         }
     }
 }
