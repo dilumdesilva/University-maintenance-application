@@ -1,6 +1,6 @@
 ﻿namespace UniversityRegistrationSystem
 {
-    partial class CheckStuMarksForm
+    partial class studentCheckMarksForm
     {
         /// <summary>
         /// Required designer variable.
