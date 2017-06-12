@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckStuMarksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckStuMarksForm.Designer.cs">
+      <DependentUpon>CheckStuMarksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecturerAddMarksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecturerAddMarksForm.Designer.cs">
+      <DependentUpon>lecturerAddMarksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lecturerLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecturerLoginForm.Designer.cs">
+      <DependentUpon>lecturerLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LecturerMainForm.Designer.cs">
+      <DependentUpon>LecturerMainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +83,18 @@
     </Compile>
     <Compile Include="statusSelectionForm.Designer.cs">
       <DependentUpon>statusSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studentLoginForm.Designer.cs">
+      <DependentUpon>studentLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studentMainForm.Designer.cs">
+      <DependentUpon>studentMainForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -74,6 +110,9 @@
     </Compile>
     <EmbeddedResource Include="statusSelectionForm.resx">
       <DependentUpon>statusSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentLoginForm.resx">
+      <DependentUpon>studentLoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
