@@ -96,6 +96,15 @@
     <Compile Include="studentMainForm.Designer.cs">
       <DependentUpon>studentMainForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="lecturerAddMarksForm.resx">
+      <DependentUpon>lecturerAddMarksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecturerLoginForm.resx">
+      <DependentUpon>lecturerLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LecturerMainForm.resx">
+      <DependentUpon>LecturerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

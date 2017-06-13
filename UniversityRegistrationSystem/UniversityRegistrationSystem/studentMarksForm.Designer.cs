@@ -43,6 +43,7 @@
             // lblNameReplace
             // 
             this.lblNameReplace.AutoSize = true;
+            this.lblNameReplace.BackColor = System.Drawing.Color.Transparent;
             this.lblNameReplace.Location = new System.Drawing.Point(21, 115);
             this.lblNameReplace.Name = "lblNameReplace";
             this.lblNameReplace.Size = new System.Drawing.Size(35, 13);
@@ -86,6 +87,7 @@
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
+            this.lblMessage.BackColor = System.Drawing.Color.Transparent;
             this.lblMessage.Location = new System.Drawing.Point(51, 115);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(151, 13);
@@ -94,6 +96,7 @@
             // 
             // picBoxLogoMainForm
             // 
+            this.picBoxLogoMainForm.BackColor = System.Drawing.Color.Transparent;
             this.picBoxLogoMainForm.Image = ((System.Drawing.Image)(resources.GetObject("picBoxLogoMainForm.Image")));
             this.picBoxLogoMainForm.Location = new System.Drawing.Point(109, 27);
             this.picBoxLogoMainForm.Name = "picBoxLogoMainForm";
@@ -106,6 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(413, 359);
             this.Controls.Add(this.picBoxLogoMainForm);
             this.Controls.Add(this.lblMessage);

@@ -28,9 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(lecturerAddMarksForm));
+            this.SuspendLayout();
+            // 
+            // lecturerAddMarksForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Name = "lecturerAddMarksForm";
             this.Text = "lecturerAddMarksForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

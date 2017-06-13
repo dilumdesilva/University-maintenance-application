@@ -44,6 +44,7 @@
             // lblInstructions
             // 
             this.lblInstructions.AutoSize = true;
+            this.lblInstructions.BackColor = System.Drawing.Color.Transparent;
             this.lblInstructions.Location = new System.Drawing.Point(37, 94);
             this.lblInstructions.Name = "lblInstructions";
             this.lblInstructions.Size = new System.Drawing.Size(122, 13);
@@ -53,6 +54,7 @@
             // lblStudentName
             // 
             this.lblStudentName.AutoSize = true;
+            this.lblStudentName.BackColor = System.Drawing.Color.Transparent;
             this.lblStudentName.Location = new System.Drawing.Point(38, 128);
             this.lblStudentName.Name = "lblStudentName";
             this.lblStudentName.Size = new System.Drawing.Size(35, 13);
@@ -62,6 +64,7 @@
             // lblStudentID
             // 
             this.lblStudentID.AutoSize = true;
+            this.lblStudentID.BackColor = System.Drawing.Color.Transparent;
             this.lblStudentID.Location = new System.Drawing.Point(37, 160);
             this.lblStudentID.Name = "lblStudentID";
             this.lblStudentID.Size = new System.Drawing.Size(58, 13);
@@ -71,6 +74,7 @@
             // lblDepartment
             // 
             this.lblDepartment.AutoSize = true;
+            this.lblDepartment.BackColor = System.Drawing.Color.Transparent;
             this.lblDepartment.Location = new System.Drawing.Point(38, 191);
             this.lblDepartment.Name = "lblDepartment";
             this.lblDepartment.Size = new System.Drawing.Size(62, 13);
@@ -110,6 +114,7 @@
             // 
             // picBoxLogoMainForm
             // 
+            this.picBoxLogoMainForm.BackColor = System.Drawing.Color.Transparent;
             this.picBoxLogoMainForm.Image = ((System.Drawing.Image)(resources.GetObject("picBoxLogoMainForm.Image")));
             this.picBoxLogoMainForm.Location = new System.Drawing.Point(71, 12);
             this.picBoxLogoMainForm.Name = "picBoxLogoMainForm";
@@ -122,6 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(327, 278);
             this.Controls.Add(this.picBoxLogoMainForm);
             this.Controls.Add(this.comboDepartment);

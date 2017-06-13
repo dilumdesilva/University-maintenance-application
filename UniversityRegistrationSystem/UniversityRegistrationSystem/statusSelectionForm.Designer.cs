@@ -52,6 +52,7 @@
             // 
             // picBoxLogoMainForm
             // 
+            this.picBoxLogoMainForm.BackColor = System.Drawing.Color.Transparent;
             this.picBoxLogoMainForm.Image = ((System.Drawing.Image)(resources.GetObject("picBoxLogoMainForm.Image")));
             this.picBoxLogoMainForm.Location = new System.Drawing.Point(46, 32);
             this.picBoxLogoMainForm.Name = "picBoxLogoMainForm";
@@ -63,6 +64,7 @@
             // lblCopyright2
             // 
             this.lblCopyright2.AutoSize = true;
+            this.lblCopyright2.BackColor = System.Drawing.Color.Transparent;
             this.lblCopyright2.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCopyright2.Location = new System.Drawing.Point(153, 291);
             this.lblCopyright2.Name = "lblCopyright2";
@@ -73,6 +75,7 @@
             // lblCopyright1
             // 
             this.lblCopyright1.AutoSize = true;
+            this.lblCopyright1.BackColor = System.Drawing.Color.Transparent;
             this.lblCopyright1.Location = new System.Drawing.Point(106, 286);
             this.lblCopyright1.Name = "lblCopyright1";
             this.lblCopyright1.Size = new System.Drawing.Size(51, 13);
@@ -82,6 +85,7 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
+            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
             this.lblStatus.Location = new System.Drawing.Point(76, 130);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(124, 13);
@@ -101,6 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(304, 307);
             this.Controls.Add(this.btnContinueStatus);
             this.Controls.Add(this.lblStatus);

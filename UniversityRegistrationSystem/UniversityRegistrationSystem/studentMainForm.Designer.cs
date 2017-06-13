@@ -43,6 +43,7 @@
             // 
             // picBoxLogoMainForm
             // 
+            this.picBoxLogoMainForm.BackColor = System.Drawing.Color.Transparent;
             this.picBoxLogoMainForm.Image = ((System.Drawing.Image)(resources.GetObject("picBoxLogoMainForm.Image")));
             this.picBoxLogoMainForm.Location = new System.Drawing.Point(62, 12);
             this.picBoxLogoMainForm.Name = "picBoxLogoMainForm";
@@ -54,6 +55,7 @@
             // lblStudentName
             // 
             this.lblStudentName.AutoSize = true;
+            this.lblStudentName.BackColor = System.Drawing.Color.Transparent;
             this.lblStudentName.Location = new System.Drawing.Point(76, 95);
             this.lblStudentName.Name = "lblStudentName";
             this.lblStudentName.Size = new System.Drawing.Size(81, 13);
@@ -63,6 +65,7 @@
             // lblStudentID
             // 
             this.lblStudentID.AutoSize = true;
+            this.lblStudentID.BackColor = System.Drawing.Color.Transparent;
             this.lblStudentID.Location = new System.Drawing.Point(76, 127);
             this.lblStudentID.Name = "lblStudentID";
             this.lblStudentID.Size = new System.Drawing.Size(64, 13);
@@ -72,6 +75,7 @@
             // lblDepartment
             // 
             this.lblDepartment.AutoSize = true;
+            this.lblDepartment.BackColor = System.Drawing.Color.Transparent;
             this.lblDepartment.Location = new System.Drawing.Point(76, 157);
             this.lblDepartment.Name = "lblDepartment";
             this.lblDepartment.Size = new System.Drawing.Size(68, 13);
@@ -99,6 +103,7 @@
             // lblStudentNameView
             // 
             this.lblStudentNameView.AutoSize = true;
+            this.lblStudentNameView.BackColor = System.Drawing.Color.Transparent;
             this.lblStudentNameView.Location = new System.Drawing.Point(165, 95);
             this.lblStudentNameView.Name = "lblStudentNameView";
             this.lblStudentNameView.Size = new System.Drawing.Size(75, 13);
@@ -108,6 +113,7 @@
             // lblStudentIDView
             // 
             this.lblStudentIDView.AutoSize = true;
+            this.lblStudentIDView.BackColor = System.Drawing.Color.Transparent;
             this.lblStudentIDView.Location = new System.Drawing.Point(165, 127);
             this.lblStudentIDView.Name = "lblStudentIDView";
             this.lblStudentIDView.Size = new System.Drawing.Size(56, 13);
@@ -117,6 +123,7 @@
             // lblDepartmentView
             // 
             this.lblDepartmentView.AutoSize = true;
+            this.lblDepartmentView.BackColor = System.Drawing.Color.Transparent;
             this.lblDepartmentView.Location = new System.Drawing.Point(165, 157);
             this.lblDepartmentView.Name = "lblDepartmentView";
             this.lblDepartmentView.Size = new System.Drawing.Size(86, 13);
@@ -127,6 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(317, 261);
             this.Controls.Add(this.lblDepartmentView);
             this.Controls.Add(this.lblStudentIDView);
