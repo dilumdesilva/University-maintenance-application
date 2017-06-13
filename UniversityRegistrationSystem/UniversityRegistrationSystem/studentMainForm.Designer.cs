@@ -145,6 +145,7 @@
             this.Controls.Add(this.lblStudentID);
             this.Controls.Add(this.lblStudentName);
             this.Controls.Add(this.picBoxLogoMainForm);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "studentMainForm";
             this.Text = "studentMainForm";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();

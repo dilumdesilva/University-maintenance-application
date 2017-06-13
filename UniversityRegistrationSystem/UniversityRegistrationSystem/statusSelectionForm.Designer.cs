@@ -113,6 +113,7 @@
             this.Controls.Add(this.lblCopyright1);
             this.Controls.Add(this.picBoxLogoMainForm);
             this.Controls.Add(this.comboBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "statusSelectionForm";
             this.Text = "statusSelectionForm";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();

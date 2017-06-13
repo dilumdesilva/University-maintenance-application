@@ -118,6 +118,7 @@
             this.Controls.Add(this.dgvStudentsMarks);
             this.Controls.Add(this.comboDepartment);
             this.Controls.Add(this.lblNameReplace);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "studentMarksForm";
             this.Text = "CheckStuMarksForm";
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentsMarks)).EndInit();

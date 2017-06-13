@@ -56,6 +56,7 @@
             this.btnSignup.TabIndex = 3;
             this.btnSignup.Text = "Sign up";
             this.btnSignup.UseVisualStyleBackColor = true;
+            this.btnSignup.Click += new System.EventHandler(this.btnSignup_Click);
             // 
             // btnRegister
             // 
@@ -65,6 +66,7 @@
             this.btnRegister.TabIndex = 4;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // lblCopyright1
             // 
@@ -99,6 +101,7 @@
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnSignup);
             this.Controls.Add(this.picBoxLogoMainForm);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "UoW";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();

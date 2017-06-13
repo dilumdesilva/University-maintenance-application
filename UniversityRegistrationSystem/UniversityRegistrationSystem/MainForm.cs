@@ -16,5 +16,39 @@ namespace UniversityRegistrationSystem
         {
             InitializeComponent();
         }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                continueToNexForm();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnSignup_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                continueToNexForm();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void continueToNexForm()
+        {
+
+            statusSelectionForm objstatusSelectionForm = new statusSelectionForm();
+            objstatusSelectionForm.Show();
+            this.Hide();
+        }
     }
 }
