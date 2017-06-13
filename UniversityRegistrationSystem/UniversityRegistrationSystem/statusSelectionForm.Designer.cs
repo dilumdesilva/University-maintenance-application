@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(statusSelectionForm));
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboStatus = new System.Windows.Forms.ComboBox();
             this.picBoxLogoMainForm = new System.Windows.Forms.PictureBox();
             this.lblCopyright2 = new System.Windows.Forms.Label();
             this.lblCopyright1 = new System.Windows.Forms.Label();
@@ -38,25 +38,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).BeginInit();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // comboStatus
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboStatus.FormattingEnabled = true;
+            this.comboStatus.Items.AddRange(new object[] {
             "Student",
             "Lecturer",
             "Staff"});
-            this.comboBox1.Location = new System.Drawing.Point(79, 155);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(139, 21);
-            this.comboBox1.TabIndex = 0;
+            this.comboStatus.Location = new System.Drawing.Point(79, 155);
+            this.comboStatus.Name = "comboStatus";
+            this.comboStatus.Size = new System.Drawing.Size(139, 21);
+            this.comboStatus.TabIndex = 0;
             // 
             // picBoxLogoMainForm
             // 
             this.picBoxLogoMainForm.BackColor = System.Drawing.Color.Transparent;
             this.picBoxLogoMainForm.Image = ((System.Drawing.Image)(resources.GetObject("picBoxLogoMainForm.Image")));
-            this.picBoxLogoMainForm.Location = new System.Drawing.Point(46, 32);
+            this.picBoxLogoMainForm.Location = new System.Drawing.Point(60, 34);
             this.picBoxLogoMainForm.Name = "picBoxLogoMainForm";
-            this.picBoxLogoMainForm.Size = new System.Drawing.Size(209, 67);
+            this.picBoxLogoMainForm.Size = new System.Drawing.Size(188, 62);
             this.picBoxLogoMainForm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBoxLogoMainForm.TabIndex = 1;
             this.picBoxLogoMainForm.TabStop = false;
@@ -112,7 +112,7 @@
             this.Controls.Add(this.lblCopyright2);
             this.Controls.Add(this.lblCopyright1);
             this.Controls.Add(this.picBoxLogoMainForm);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboStatus);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "statusSelectionForm";
             this.Text = "statusSelectionForm";
@@ -124,7 +124,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboStatus;
         private System.Windows.Forms.PictureBox picBoxLogoMainForm;
         private System.Windows.Forms.Label lblCopyright2;
         private System.Windows.Forms.Label lblCopyright1;

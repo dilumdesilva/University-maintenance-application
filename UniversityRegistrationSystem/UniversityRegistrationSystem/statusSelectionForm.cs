@@ -16,5 +16,39 @@ namespace UniversityRegistrationSystem
         {
             InitializeComponent();
         }
+
+        public string getSelectedStatus()
+        {
+            string selectedStatus = null;
+
+            if (comboStatus.SelectedValue.ToString() == "Student")
+            {
+                selectedStatus = "Student";
+            }
+            else
+            {
+                selectedStatus = null;
+            }
+
+            if (comboStatus.SelectedValue.ToString() == "Lecturer")
+            {
+                selectedStatus = "Lecturer";
+            }
+            else
+            {
+                selectedStatus = null;
+            }
+
+            if (comboStatus.SelectedValue.ToString() == "Staff")
+            {
+                selectedStatus = "Staff";
+            }
+            else
+            {
+                selectedStatus = null;
+            }
+
+            return selectedStatus;
+        }
     }
 }
