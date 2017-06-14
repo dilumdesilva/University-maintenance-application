@@ -16,5 +16,10 @@ namespace UniversityRegistrationSystem
         {
             InitializeComponent();
         }
+
+        private void lecturerLoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
