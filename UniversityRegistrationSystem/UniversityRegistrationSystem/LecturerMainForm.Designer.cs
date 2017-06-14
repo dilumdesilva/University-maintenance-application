@@ -171,9 +171,9 @@
             this.Controls.Add(this.lblLecturerID);
             this.Controls.Add(this.lblLecturerName);
             this.Controls.Add(this.picBoxLogoMainForm);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LecturerMainForm";
-            this.Text = "LecturerMainForm";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

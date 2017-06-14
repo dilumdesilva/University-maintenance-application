@@ -144,9 +144,9 @@
             this.Controls.Add(this.dgvStudentsMarks);
             this.Controls.Add(this.comboDepartment);
             this.Controls.Add(this.lblNameReplace);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "studentMarksForm";
-            this.Text = "CheckStuMarksForm";
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentsMarks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();
             this.ResumeLayout(false);

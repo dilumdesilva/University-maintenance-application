@@ -185,9 +185,9 @@
             this.Controls.Add(this.lblLecturerID);
             this.Controls.Add(this.lblLecName);
             this.Controls.Add(this.lblInstructions);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "lecturerLoginForm";
-            this.Text = "lecturerLoginForm";
             this.Load += new System.EventHandler(this.lecturerLoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();
             this.ResumeLayout(false);

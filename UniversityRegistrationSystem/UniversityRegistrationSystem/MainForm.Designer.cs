@@ -101,9 +101,9 @@
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnSignup);
             this.Controls.Add(this.picBoxLogoMainForm);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
-            this.Text = "UoW";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -155,9 +155,9 @@
             this.Controls.Add(this.btnLecBacktoLogin);
             this.Controls.Add(this.btnEmailGenerator);
             this.Controls.Add(this.dgvStudentsMarks);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "lecturerAddMarksForm";
-            this.Text = "lecturerAddMarksForm";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentsMarks)).EndInit();
             this.ResumeLayout(false);

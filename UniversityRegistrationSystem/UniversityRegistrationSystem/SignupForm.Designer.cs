@@ -260,8 +260,9 @@
             this.Controls.Add(this.lblStudentID);
             this.Controls.Add(this.lblStudentName);
             this.Controls.Add(this.lblInstructions);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SignupForm";
-            this.Text = "SignupForm";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

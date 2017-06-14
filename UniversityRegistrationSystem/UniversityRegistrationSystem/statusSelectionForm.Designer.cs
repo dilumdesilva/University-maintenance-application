@@ -114,9 +114,9 @@
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.picBoxLogoMainForm);
             this.Controls.Add(this.comboStatus);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "statusSelectionForm";
-            this.Text = "statusSelectionForm";
             this.Load += new System.EventHandler(this.statusSelectionForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();
             this.ResumeLayout(false);

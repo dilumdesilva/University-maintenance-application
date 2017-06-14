@@ -16,5 +16,10 @@ namespace UniversityRegistrationSystem
         {
             InitializeComponent();
         }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

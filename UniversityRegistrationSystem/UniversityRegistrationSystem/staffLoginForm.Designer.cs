@@ -185,8 +185,9 @@
             this.Controls.Add(this.lblStaffID);
             this.Controls.Add(this.lblStaffName);
             this.Controls.Add(this.lblInstructions);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "staffLoginForm";
-            this.Text = "staffLoginForm";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
