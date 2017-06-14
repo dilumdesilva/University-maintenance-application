@@ -48,12 +48,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtPassword2 = new System.Windows.Forms.TextBox();
             this.lblConfirmPass = new System.Windows.Forms.Label();
+            this.btnRefresh = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).BeginInit();
             this.SuspendLayout();
             // 
             // txtPassword1
             // 
-            this.txtPassword1.Location = new System.Drawing.Point(167, 281);
+            this.txtPassword1.Location = new System.Drawing.Point(158, 285);
             this.txtPassword1.Name = "txtPassword1";
             this.txtPassword1.Size = new System.Drawing.Size(144, 20);
             this.txtPassword1.TabIndex = 48;
@@ -62,7 +63,7 @@
             // 
             this.lblStuPassword.AutoSize = true;
             this.lblStuPassword.BackColor = System.Drawing.Color.Transparent;
-            this.lblStuPassword.Location = new System.Drawing.Point(46, 284);
+            this.lblStuPassword.Location = new System.Drawing.Point(37, 288);
             this.lblStuPassword.Name = "lblStuPassword";
             this.lblStuPassword.Size = new System.Drawing.Size(53, 13);
             this.lblStuPassword.TabIndex = 47;
@@ -104,14 +105,14 @@
             // comboDepartment
             // 
             this.comboDepartment.FormattingEnabled = true;
-            this.comboDepartment.Location = new System.Drawing.Point(167, 351);
+            this.comboDepartment.Location = new System.Drawing.Point(158, 355);
             this.comboDepartment.Name = "comboDepartment";
             this.comboDepartment.Size = new System.Drawing.Size(144, 21);
             this.comboDepartment.TabIndex = 43;
             // 
             // btnStudentLogin
             // 
-            this.btnStudentLogin.Location = new System.Drawing.Point(138, 402);
+            this.btnStudentLogin.Location = new System.Drawing.Point(40, 407);
             this.btnStudentLogin.Name = "btnStudentLogin";
             this.btnStudentLogin.Size = new System.Drawing.Size(80, 27);
             this.btnStudentLogin.TabIndex = 42;
@@ -120,14 +121,14 @@
             // 
             // txtUniversityID
             // 
-            this.txtUniversityID.Location = new System.Drawing.Point(167, 246);
+            this.txtUniversityID.Location = new System.Drawing.Point(158, 250);
             this.txtUniversityID.Name = "txtUniversityID";
             this.txtUniversityID.Size = new System.Drawing.Size(144, 20);
             this.txtUniversityID.TabIndex = 41;
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(167, 143);
+            this.txtFirstName.Location = new System.Drawing.Point(158, 147);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(144, 20);
             this.txtFirstName.TabIndex = 40;
@@ -136,7 +137,7 @@
             // 
             this.lblStuDepartment.AutoSize = true;
             this.lblStuDepartment.BackColor = System.Drawing.Color.Transparent;
-            this.lblStuDepartment.Location = new System.Drawing.Point(47, 354);
+            this.lblStuDepartment.Location = new System.Drawing.Point(38, 358);
             this.lblStuDepartment.Name = "lblStuDepartment";
             this.lblStuDepartment.Size = new System.Drawing.Size(62, 13);
             this.lblStuDepartment.TabIndex = 39;
@@ -146,7 +147,7 @@
             // 
             this.lblStudentID.AutoSize = true;
             this.lblStudentID.BackColor = System.Drawing.Color.Transparent;
-            this.lblStudentID.Location = new System.Drawing.Point(46, 249);
+            this.lblStudentID.Location = new System.Drawing.Point(37, 253);
             this.lblStudentID.Name = "lblStudentID";
             this.lblStudentID.Size = new System.Drawing.Size(67, 13);
             this.lblStudentID.TabIndex = 38;
@@ -156,7 +157,7 @@
             // 
             this.lblStudentName.AutoSize = true;
             this.lblStudentName.BackColor = System.Drawing.Color.Transparent;
-            this.lblStudentName.Location = new System.Drawing.Point(47, 146);
+            this.lblStudentName.Location = new System.Drawing.Point(38, 150);
             this.lblStudentName.Name = "lblStudentName";
             this.lblStudentName.Size = new System.Drawing.Size(57, 13);
             this.lblStudentName.TabIndex = 37;
@@ -166,7 +167,7 @@
             // 
             this.lblInstructions.AutoSize = true;
             this.lblInstructions.BackColor = System.Drawing.Color.Transparent;
-            this.lblInstructions.Location = new System.Drawing.Point(46, 112);
+            this.lblInstructions.Location = new System.Drawing.Point(37, 116);
             this.lblInstructions.Name = "lblInstructions";
             this.lblInstructions.Size = new System.Drawing.Size(122, 13);
             this.lblInstructions.TabIndex = 36;
@@ -174,7 +175,7 @@
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(167, 176);
+            this.txtLastName.Location = new System.Drawing.Point(158, 180);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(144, 20);
             this.txtLastName.TabIndex = 50;
@@ -183,7 +184,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(47, 179);
+            this.label1.Location = new System.Drawing.Point(38, 183);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 49;
@@ -192,7 +193,7 @@
             // comboStatus
             // 
             this.comboStatus.FormattingEnabled = true;
-            this.comboStatus.Location = new System.Drawing.Point(167, 212);
+            this.comboStatus.Location = new System.Drawing.Point(158, 216);
             this.comboStatus.Name = "comboStatus";
             this.comboStatus.Size = new System.Drawing.Size(144, 21);
             this.comboStatus.TabIndex = 52;
@@ -201,7 +202,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(47, 215);
+            this.label2.Location = new System.Drawing.Point(38, 219);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 51;
@@ -209,7 +210,7 @@
             // 
             // txtPassword2
             // 
-            this.txtPassword2.Location = new System.Drawing.Point(167, 316);
+            this.txtPassword2.Location = new System.Drawing.Point(158, 320);
             this.txtPassword2.Name = "txtPassword2";
             this.txtPassword2.Size = new System.Drawing.Size(144, 20);
             this.txtPassword2.TabIndex = 54;
@@ -218,11 +219,20 @@
             // 
             this.lblConfirmPass.AutoSize = true;
             this.lblConfirmPass.BackColor = System.Drawing.Color.Transparent;
-            this.lblConfirmPass.Location = new System.Drawing.Point(46, 319);
+            this.lblConfirmPass.Location = new System.Drawing.Point(37, 323);
             this.lblConfirmPass.Name = "lblConfirmPass";
             this.lblConfirmPass.Size = new System.Drawing.Size(90, 13);
             this.lblConfirmPass.TabIndex = 53;
             this.lblConfirmPass.Text = "Confirm password";
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Location = new System.Drawing.Point(126, 407);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(80, 27);
+            this.btnRefresh.TabIndex = 55;
+            this.btnRefresh.Text = "Reset";
+            this.btnRefresh.UseVisualStyleBackColor = true;
             // 
             // SignupForm
             // 
@@ -230,6 +240,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(354, 489);
+            this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.txtPassword2);
             this.Controls.Add(this.lblConfirmPass);
             this.Controls.Add(this.comboStatus);
@@ -278,5 +289,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPassword2;
         private System.Windows.Forms.Label lblConfirmPass;
+        private System.Windows.Forms.Button btnRefresh;
     }
 }
