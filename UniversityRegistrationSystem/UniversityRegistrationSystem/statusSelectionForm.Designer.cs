@@ -117,6 +117,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "statusSelectionForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.statusSelectionForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).EndInit();
             this.ResumeLayout(false);

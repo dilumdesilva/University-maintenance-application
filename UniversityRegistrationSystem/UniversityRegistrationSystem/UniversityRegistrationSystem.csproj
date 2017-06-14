@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Metro">
+      <HintPath>..\..\..\..\..\Downloads\Metro\Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -140,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="staffLoginForm.resx">
       <DependentUpon>staffLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staffMainFormcs.resx">
+      <DependentUpon>staffMainFormcs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="statusSelectionForm.resx">
       <DependentUpon>statusSelectionForm.cs</DependentUpon>
