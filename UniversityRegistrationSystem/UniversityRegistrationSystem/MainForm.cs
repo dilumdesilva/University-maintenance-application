@@ -17,11 +17,16 @@ namespace UniversityRegistrationSystem
             InitializeComponent();
         }
 
+        //create a global varible to identify signup,signin seperatly
+        public int Stage { get; set; }
+
         private void btnRegister_Click(object sender, EventArgs e)
         {
             try
-            {
+            {   
+                Stage = 1;
                 continueToNexForm();
+               
             }
             catch (Exception ex)
             {
@@ -34,6 +39,7 @@ namespace UniversityRegistrationSystem
         {
             try
             {
+                Stage = 2;
                 continueToNexForm();
             }
             catch (Exception ex)
@@ -45,10 +51,21 @@ namespace UniversityRegistrationSystem
 
         private void continueToNexForm()
         {
-
-            statusSelectionForm objstatusSelectionForm = new statusSelectionForm();
-            objstatusSelectionForm.Show();
-            this.Hide();
+            if (Stage==1)
+            {
+                statusSelectionForm objstatusSelectionForm = new statusSelectionForm(Stage);
+                //MessageBox.Show(Stage.ToString());
+                objstatusSelectionForm.Show();
+                this.Hide();
+            }
+            else if (Stage==2)
+            {
+                statusSelectionForm objstatusSelectionForm = new statusSelectionForm(Stage);
+                //MessageBox.Show(Stage.ToString());
+                objstatusSelectionForm.Show();
+                this.Hide();
+            }
+            
         }
     }
 }

@@ -16,9 +16,16 @@ namespace UniversityRegistrationSystem
         //Create a list to store status details.
         List<Status> lstStatus = null;
 
+        public int cont { get; set; }
+
         public statusSelectionForm()
         {
             InitializeComponent();
+        }
+        public statusSelectionForm(int stage)
+        {
+            InitializeComponent();
+            cont = stage;
         }
 
         private void statusSelectionForm_Load(object sender, EventArgs e)
@@ -57,29 +64,50 @@ namespace UniversityRegistrationSystem
             try
             {
                 getSelectedStatus();
+                if (cont == 1)
+                {
+                    if (getSelectedStatus() == 1)
+                    {
+                        studentLoginForm objstudentLoginForm = new studentLoginForm();
+                        objstudentLoginForm.Show();
+                        this.Hide();
+                    }
+                    if (getSelectedStatus() == 2)
+                    {
+                        lecturerLoginForm objlecturerLoginForm = new lecturerLoginForm();
+                        objlecturerLoginForm.Show();
+                        this.Hide();
+                    }
+                    if (getSelectedStatus() == 3)
+                    {
+                        staffLoginForm objstaffLoginForm = new staffLoginForm();
+                        objstaffLoginForm.Show();
+                        this.Hide();
+                    }
+                    if (getSelectedStatus() == 0)
+                    {
+                        MessageBox.Show("Please select your status before you continue", "Reminder", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    }
+                }
 
-                if (getSelectedStatus() == 1)
-                { 
-                    studentLoginForm objstudentLoginForm = new studentLoginForm();
-                    objstudentLoginForm.Show();
-                    this.Hide();
-                }
-                if (getSelectedStatus() == 2)
+                else if (cont == 2)
                 {
-                    lecturerLoginForm objlecturerLoginForm = new lecturerLoginForm();
-                    objlecturerLoginForm.Show();
-                    this.Hide();
+
+                    if ((getSelectedStatus() == 1) || (getSelectedStatus() == 2) || (getSelectedStatus() == 3))
+                    {
+                        SignupForm objSignupForm = new SignupForm();
+                        objSignupForm.Show();
+                        this.Hide();
+                    }
+                    if (getSelectedStatus() == 0)
+                    {
+                        MessageBox.Show("Please select your status before you continue", "Reminder", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    }
+
                 }
-                if (getSelectedStatus() == 3)
-                {
-                    staffLoginForm objstaffLoginForm = new staffLoginForm();
-                    objstaffLoginForm.Show();
-                    this.Hide();
-                }
-                if (getSelectedStatus() == 0)
-                {
-                    MessageBox.Show("Please select your status before you continue","Reminder",MessageBoxButtons.OK,MessageBoxIcon.Asterisk);
-                }
+               
+               
+               
             }
             catch (Exception ex)
             {

@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.picBoxLogoMainForm = new System.Windows.Forms.PictureBox();
             this.btnSignup = new System.Windows.Forms.Button();
-            this.btnRegister = new System.Windows.Forms.Button();
+            this.btnSignin = new System.Windows.Forms.Button();
             this.lblCopyright1 = new System.Windows.Forms.Label();
             this.lblCopyright2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxLogoMainForm)).BeginInit();
@@ -54,19 +54,19 @@
             this.btnSignup.Name = "btnSignup";
             this.btnSignup.Size = new System.Drawing.Size(97, 35);
             this.btnSignup.TabIndex = 3;
-            this.btnSignup.Text = "Sign up";
+            this.btnSignup.Text = "SignUp";
             this.btnSignup.UseVisualStyleBackColor = true;
             this.btnSignup.Click += new System.EventHandler(this.btnSignup_Click);
             // 
-            // btnRegister
+            // btnSignin
             // 
-            this.btnRegister.Location = new System.Drawing.Point(93, 162);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(97, 35);
-            this.btnRegister.TabIndex = 4;
-            this.btnRegister.Text = "Register";
-            this.btnRegister.UseVisualStyleBackColor = true;
-            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            this.btnSignin.Location = new System.Drawing.Point(93, 162);
+            this.btnSignin.Name = "btnSignin";
+            this.btnSignin.Size = new System.Drawing.Size(97, 35);
+            this.btnSignin.TabIndex = 4;
+            this.btnSignin.Text = "SignIn";
+            this.btnSignin.UseVisualStyleBackColor = true;
+            this.btnSignin.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // lblCopyright1
             // 
@@ -98,7 +98,7 @@
             this.ClientSize = new System.Drawing.Size(296, 331);
             this.Controls.Add(this.lblCopyright2);
             this.Controls.Add(this.lblCopyright1);
-            this.Controls.Add(this.btnRegister);
+            this.Controls.Add(this.btnSignin);
             this.Controls.Add(this.btnSignup);
             this.Controls.Add(this.picBoxLogoMainForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -115,7 +115,7 @@
 
         private System.Windows.Forms.PictureBox picBoxLogoMainForm;
         private System.Windows.Forms.Button btnSignup;
-        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Button btnSignin;
         private System.Windows.Forms.Label lblCopyright1;
         private System.Windows.Forms.Label lblCopyright2;
     }
