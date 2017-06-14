@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SharedLibrary
 {
-    public class Class1
+    public class Status
     {
+        public int StatusID { get; set; }
+        public string StatusName { get; set; }
     }
 }

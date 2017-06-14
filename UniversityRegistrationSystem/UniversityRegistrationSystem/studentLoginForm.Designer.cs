@@ -35,7 +35,7 @@
             this.lblCopyright1 = new System.Windows.Forms.Label();
             this.picBoxLogoMainForm = new System.Windows.Forms.PictureBox();
             this.comboStuDepartment = new System.Windows.Forms.ComboBox();
-            this.btnLecturerLogin = new System.Windows.Forms.Button();
+            this.btnStudentLogin = new System.Windows.Forms.Button();
             this.txtStudentID = new System.Windows.Forms.TextBox();
             this.txtStudentName = new System.Windows.Forms.TextBox();
             this.lblStuDepartment = new System.Windows.Forms.Label();
@@ -103,14 +103,14 @@
             this.comboStuDepartment.Size = new System.Drawing.Size(144, 21);
             this.comboStuDepartment.TabIndex = 30;
             // 
-            // btnLecturerLogin
+            // btnStudentLogin
             // 
-            this.btnLecturerLogin.Location = new System.Drawing.Point(119, 286);
-            this.btnLecturerLogin.Name = "btnLecturerLogin";
-            this.btnLecturerLogin.Size = new System.Drawing.Size(80, 27);
-            this.btnLecturerLogin.TabIndex = 29;
-            this.btnLecturerLogin.Text = "Login";
-            this.btnLecturerLogin.UseVisualStyleBackColor = true;
+            this.btnStudentLogin.Location = new System.Drawing.Point(119, 286);
+            this.btnStudentLogin.Name = "btnStudentLogin";
+            this.btnStudentLogin.Size = new System.Drawing.Size(80, 27);
+            this.btnStudentLogin.TabIndex = 29;
+            this.btnStudentLogin.Text = "Login";
+            this.btnStudentLogin.UseVisualStyleBackColor = true;
             // 
             // txtStudentID
             // 
@@ -178,7 +178,7 @@
             this.Controls.Add(this.lblCopyright1);
             this.Controls.Add(this.picBoxLogoMainForm);
             this.Controls.Add(this.comboStuDepartment);
-            this.Controls.Add(this.btnLecturerLogin);
+            this.Controls.Add(this.btnStudentLogin);
             this.Controls.Add(this.txtStudentID);
             this.Controls.Add(this.txtStudentName);
             this.Controls.Add(this.lblStuDepartment);
@@ -202,7 +202,7 @@
         private System.Windows.Forms.Label lblCopyright1;
         private System.Windows.Forms.PictureBox picBoxLogoMainForm;
         private System.Windows.Forms.ComboBox comboStuDepartment;
-        private System.Windows.Forms.Button btnLecturerLogin;
+        private System.Windows.Forms.Button btnStudentLogin;
         private System.Windows.Forms.TextBox txtStudentID;
         private System.Windows.Forms.TextBox txtStudentName;
         private System.Windows.Forms.Label lblStuDepartment;

@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="staffLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffLoginForm.Designer.cs">
+      <DependentUpon>staffLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staffMainFormcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffMainFormcs.Designer.cs">
+      <DependentUpon>staffMainFormcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="studentMarksForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +129,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="staffLoginForm.resx">
+      <DependentUpon>staffLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="statusSelectionForm.resx">
       <DependentUpon>statusSelectionForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,6 +156,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLLayer\BLLayer.csproj">
+      <Project>{28ad9ebf-3d61-4a47-8b68-5c2d998c70fe}</Project>
+      <Name>BLLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedLibrary\SharedLibrary.csproj">
+      <Project>{87f6bb6d-3370-4fbe-86a6-7f6cd22f4ebf}</Project>
+      <Name>SharedLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

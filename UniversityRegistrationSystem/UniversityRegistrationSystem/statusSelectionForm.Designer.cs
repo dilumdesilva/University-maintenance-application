@@ -41,10 +41,6 @@
             // comboStatus
             // 
             this.comboStatus.FormattingEnabled = true;
-            this.comboStatus.Items.AddRange(new object[] {
-            "Student",
-            "Lecturer",
-            "Staff"});
             this.comboStatus.Location = new System.Drawing.Point(79, 161);
             this.comboStatus.Name = "comboStatus";
             this.comboStatus.Size = new System.Drawing.Size(139, 21);
@@ -55,7 +51,7 @@
             // 
             this.picBoxLogoMainForm.BackColor = System.Drawing.Color.Transparent;
             this.picBoxLogoMainForm.Image = ((System.Drawing.Image)(resources.GetObject("picBoxLogoMainForm.Image")));
-            this.picBoxLogoMainForm.Location = new System.Drawing.Point(60, 34);
+            this.picBoxLogoMainForm.Location = new System.Drawing.Point(58, 34);
             this.picBoxLogoMainForm.Name = "picBoxLogoMainForm";
             this.picBoxLogoMainForm.Size = new System.Drawing.Size(188, 62);
             this.picBoxLogoMainForm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,6 +76,7 @@
             this.btnContinueStatus.TabIndex = 10;
             this.btnContinueStatus.Text = "Continue";
             this.btnContinueStatus.UseVisualStyleBackColor = true;
+            this.btnContinueStatus.Click += new System.EventHandler(this.btnContinueStatus_Click);
             // 
             // label1
             // 
